@@ -30,12 +30,16 @@
       color: black;
   
   }
-
-    .logo{
+  .logo{
+    margin-top: 24px;
+    margin-left: 118px;
+   
+  
+  }
+    .logo a{
         color: rgb(0, 0, 0);
+        text-decoration: none;
         font-size: 20px;
-        margin-top: 24px;
-        margin-left: 118px;
         font-weight: bold;
         background: #ffe10a;
         padding: 5px;
@@ -43,7 +47,7 @@
         transition: .7s;
     
     }
-  .logo:hover{
+  .logo a:hover{
       background: none;
       color: white;
       text-shadow: 2px 2px 2px white;
