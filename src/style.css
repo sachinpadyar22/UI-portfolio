@@ -136,12 +136,9 @@
   .home-one
 {
     background-color: rgb(43, 42, 42);
-    height: 100%;
-    padding: 1px;
     margin-left: -12px;
     margin-right: -12px;
-    background-size: cover;
-    transition: 0.7s;
+   
 }
 
 
