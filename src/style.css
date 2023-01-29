@@ -597,13 +597,15 @@
     
     background-color: orange;
     margin-left: -12px;
+    margin-right: -12px;
+    
    
 }
 .footer-small{
     background-color: #000000;
     color: white;
     margin-left: -12px;
-    margin-right: -12px;
+    
     border-radius: 40% 40% 0 0 ;
 }
 .footer .social{
