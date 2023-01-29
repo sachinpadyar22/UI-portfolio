@@ -135,9 +135,7 @@
    /*-------------------------------- Home Section Start---------------------------------------*/
   .home-one
 {
-    background-image: url('/public/back-image.jpg');
-    background-repeat:no-repeat ;
-    background-position: center;
+    background-color: rgb(43, 42, 42);
     height: 100%;
     padding: 1px;
     margin-left: -12px;
