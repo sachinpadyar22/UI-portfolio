@@ -593,8 +593,10 @@
 
 
 .footer{
-    background: url(/public/images/home-background.jpg);
-    background-size: cover;
+    
+    background-color: orange;
+    margin-left: -12px;
+    margin-right: -12px;
 }
 .footer-small{
     background-color: #000000;
@@ -605,19 +607,28 @@
 }
 .footer .social{
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 
 }
-.social span{
-    padding: 15px;
-    margin: 20px;
-    font-size: 20px;
+.social a{
+    padding: 20px;
+    margin-top: 20px;
+    margin: 10px;
+    font-size: 20px;   
+    border-radius: 50%;
+    color: orange;
+  
     
 }
-.social span:hover{
-    background-color: greenyellow;
-    border-radius: 45%;
-    color: black;
+.social a:hover{
+    
+        background: rgb(0, 0, 0);
+        color: #ffffff;
+        box-shadow: 0 0 5px white,
+                    0 0 10px white,
+                    0 0 20px white,
+                    0 0 60px white;
+   
 }
 
 .last{
