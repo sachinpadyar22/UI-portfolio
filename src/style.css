@@ -610,7 +610,7 @@
 
 .footer{
     
-    background-color: orange;
+    background: #152328;
     margin-left: -12px;
     margin-right: -12px;
     
@@ -634,7 +634,7 @@
     margin: 10px;
     font-size: 20px;   
     border-radius: 50%;
-    color: orange;
+    color: rgb(255, 166, 0);
 }
 .social a:hover{
     
