@@ -139,10 +139,10 @@
    /*-------------------------------- Home Section Start---------------------------------------*/
   .home-one
 {
-    background: url('/public/home.jpg');
+    background: #1c2c32;
     margin-left: -12px;
     margin-right: -12px;
-    background-size: cover;
+ 
     
    
 }
@@ -380,7 +380,7 @@
       /*-------------------------------- Education Section Start---------------------------------------*/
 
     .Qualification{
-        background: rgb(43, 42, 42);
+        background: #17252a;
         margin-left: -12px;
         margin-right: -12px;
         margin-bottom: -25px;
@@ -505,7 +505,7 @@
     padding-top: 20px;
   }
   .skills{
-    background: #333;
+    background: #152328;
     margin-right: -12.3px;
     margin-left: -11.7px;
   }
@@ -519,7 +519,7 @@
     grid-gap: 1rem;
     padding: 1rem 80px;
     font-size: 1.2rem;
-    background: #333;
+    background: #152328;
  }
  .skill-box{
     padding: 1rem;
