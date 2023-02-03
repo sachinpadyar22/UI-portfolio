@@ -139,9 +139,11 @@
    /*-------------------------------- Home Section Start---------------------------------------*/
   .home-one
 {
-    background-color: rgb(43, 42, 42);
+    background: url('/public/home.jpg');
     margin-left: -12px;
     margin-right: -12px;
+    background-size: cover;
+    
    
 }
 
