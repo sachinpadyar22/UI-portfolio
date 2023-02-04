@@ -66,19 +66,51 @@
       margin-top: -10px;
       
   }
-  .checkbtn{
-      font-size: 30px;
-      color: white;
-      float: right;
-      line-height: 80px;
-      margin-right: 40px;
-      display: none;
+
+  .mobile-responsive{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-top: 23px;
+    background: transparent;
+    display: none;
+    margin-right: 0px;
+ 
+}
+.mobile-responsive li{
+    list-style: none;
+  margin-bottom: 20px;
+    
+}
+.mobile-responsive li a span{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+
+   
+   
+}
+.mobile-responsive li a span:hover{
+    background: orange;
+    color: black;
+    border-radius: 10px;
+}
+#active{
+    transition: .5s;
+    color: black;
+    background: orange;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+@media (max-width:857px){
+    .mobile-responsive{
+        display: block;
+    }
+}
+
   
-  }
-  #check{
-      display: none;
-  }
-  
+
   @media (max-width:952px){
       .logo{
           font-size:20px;
@@ -92,10 +124,7 @@
       }
   }
   @media (max-width: 858px){
-      .checkbtn{
-          display: block;
-  
-      }
+      
       .nav-ul{
             position: absolute;
             width: 100%;
@@ -110,31 +139,10 @@
           
         }
      
-      .nav-ul li{
-          display: block;
-          margin: 50p 0;
-          margin-top: 36px;
-         
-          
-      }
-      .nav-ul li a{
-          font-size: 20px;
-  
-      }
-      a.active{
-          background: none;
-      }
-      a:hover{
-          background: none;
-          color: #0082e6;
-  
-         
-      }
-      #check:checked ~ ul{
-        left: 0;
-  
-      }
+     
+      
   }
+  
   
    /*-------------------------------- Home Section Start---------------------------------------*/
   .home-one
