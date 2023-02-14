@@ -147,7 +147,8 @@
    /*-------------------------------- Home Section Start---------------------------------------*/
   .home-one
 {
-    background: #1c2c32;
+
+    background: url("/public/home.jpg");
     margin-left: -12px;
     margin-right: -12px;
  
