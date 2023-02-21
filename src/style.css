@@ -177,11 +177,7 @@
   
       }
    }
-   .home .content img{
-    width: 300px;
-    margin-top: -200px;
-    transition: .4s;
-   }
+  
    @media (max-width:1000px){
     .home .content img{
         transition: .4s;
